@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://codeload.github.com/gflags/gflags/zip/refs/heads/master'
-tag=''
