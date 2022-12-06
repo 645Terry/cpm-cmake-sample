@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar'")
+       file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar'")
 
-  file("" "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar" actual_value)
+  file("" "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-    /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar
+    /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,47 +71,47 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar" STREQUAL "")
+if("/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
-if("https://github.com/645Terry/cpm-lib/blob/master/pkgs/gflags_2.2.2/x86_64-ubuntu-linux-gcc9.3.0/gflags_2.2.2.tar" STREQUAL "")
+if("https://codeload.github.com/gflags/gflags/zip/refs/heads/master" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar")
+if(EXISTS "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar'
+  file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar")
+      file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar'
+  file='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar")
+    file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar'
+   dst='/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar'
    timeout='none'"
 )
 
 foreach(i RANGE ${retry_number})
   sleep_before_download(${i})
 
-  foreach(url https://github.com/645Terry/cpm-lib/blob/master/pkgs/gflags_2.2.2/x86_64-ubuntu-linux-gcc9.3.0/gflags_2.2.2.tar)
+  foreach(url https://codeload.github.com/gflags/gflags/zip/refs/heads/master)
     message(STATUS "Using src='${url}'")
 
     
@@ -121,7 +121,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar"
+        "${url}" "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -137,7 +137,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar")
+        file(REMOVE "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar")
       else()
         message(STATUS "Downloading... done")
         return()

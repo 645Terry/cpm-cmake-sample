@@ -372,6 +372,12 @@ boost_regex_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0
 boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0
 
 //Value Computed by CMake
+gflags_BINARY_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-build
+
+//Value Computed by CMake
+gflags_SOURCE_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-src
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-build/googlemock
 
 //Dependencies for the target
@@ -568,7 +574,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -617,9 +623,9 @@ CPM_DRY_RUN:INTERNAL=OFF
 CPM_FILE:INTERNAL=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/cmake/CPM.cmake
 CPM_INDENT:INTERNAL=CPM:
 CPM_MODULE_PATH:INTERNAL=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CPM_modules
-CPM_PACKAGES:INTERNAL=googletest
+CPM_PACKAGES:INTERNAL=gflags;googletest
 CPM_PACKAGE_LOCK_FILE:INTERNAL=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/cpm-package-lock.cmake
-CPM_PACKAGE_gflags_VERSION:INTERNAL=2.2.2
+CPM_PACKAGE_gflags_VERSION:INTERNAL=
 CPM_PACKAGE_glog_VERSION:INTERNAL=0.5.0
 CPM_PACKAGE_googletest_VERSION:INTERNAL=1.8.1
 CPM_VERSION:INTERNAL=1.0.0-development-version
@@ -629,6 +635,24 @@ FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boo
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3.8][v3.8.10()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Have include fnmatch.h
+HAVE_FNMATCH_H:INTERNAL=1
+//Have include inttypes.h
+HAVE_INTTYPES_H:INTERNAL=1
+//Have include stddef.h
+HAVE_STDDEF_H:INTERNAL=1
+//Have include stdint.h
+HAVE_STDINT_H:INTERNAL=1
+//Have symbol strtoll
+HAVE_STRTOLL:INTERNAL=1
+//Have include sys/stat.h
+HAVE_SYS_STAT_H:INTERNAL=1
+//Have include sys/types.h
+HAVE_SYS_TYPES_H:INTERNAL=1
+//Have include unistd.h
+HAVE_UNISTD_H:INTERNAL=1
+//Result of TRY_COMPILE
+HAVE_uint32_t:INTERNAL=TRUE
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
@@ -657,4 +681,6 @@ gtest_build_tests-ADVANCED:INTERNAL=1
 gtest_disable_pthreads-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_hide_internal_symbols
 gtest_hide_internal_symbols-ADVANCED:INTERNAL=1
+//CHECK_TYPE_SIZE: sizeof(uint32_t)
+uint32_t:INTERNAL=4
 

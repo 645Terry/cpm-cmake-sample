@@ -11,7 +11,7 @@ project(gflags-populate NONE)
 
 include(ExternalProject)
 ExternalProject_Add(gflags-populate
-                     "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/645Terry/cpm-lib/blob/master/pkgs/gflags_2.2.2/x86_64-ubuntu-linux-gcc9.3.0/gflags_2.2.2.tar"
+                     "UPDATE_DISCONNECTED" "False" "URL" "https://codeload.github.com/gflags/gflags/zip/refs/heads/master"
                     SOURCE_DIR          "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-src"
                     BINARY_DIR          "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-build"
                     CONFIGURE_COMMAND   ""

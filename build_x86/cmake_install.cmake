@@ -39,6 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-build/cmake_install.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/third_party" TYPE DIRECTORY FILES "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-src/lib" FILES_MATCHING REGEX "/[^/]*\\.so[^/]*$")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-build/cmake_install.cmake")
 endif()
 

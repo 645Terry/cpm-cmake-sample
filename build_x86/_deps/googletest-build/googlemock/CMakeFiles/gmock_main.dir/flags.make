@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++1y -fPIC -fno-omit-frame-pointer -pthread -fPIC -O0 -g -Wal
 
 CXX_DEFINES = -DAUTOMSG_VERSION=\"v1.3.3\"
 
-CXX_INCLUDES = -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googlemock/include -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googlemock -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googletest/include -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googletest 
+CXX_INCLUDES = -I/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-src/include -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googlemock/include -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googlemock -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googletest/include -isystem /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/googletest-src/googletest 
 

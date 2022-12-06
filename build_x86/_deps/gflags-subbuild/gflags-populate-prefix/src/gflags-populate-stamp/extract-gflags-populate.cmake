@@ -1,6 +1,6 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags_2.2.2.tar" ABSOLUTE)
+get_filename_component(filename "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-subbuild/gflags-populate-prefix/src/archive.tar" ABSOLUTE)
 get_filename_component(directory "/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/_deps/gflags-src" ABSOLUTE)
 
 message(STATUS "extracting...

@@ -934,3 +934,142 @@ make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x8
 
 
 
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c999c/fast && /usr/bin/make -f CMakeFiles/cmTC_c999c.dir/build.make CMakeFiles/cmTC_c999c.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c999c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_c999c.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c999c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c999c.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_c999c.dir/CheckIncludeFile.cxx.o  -o cmTC_c999c 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b467/fast && /usr/bin/make -f CMakeFiles/cmTC_2b467.dir/build.make CMakeFiles/cmTC_2b467.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_2b467.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_2b467.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2b467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b467.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_2b467.dir/CheckIncludeFile.cxx.o  -o cmTC_2b467 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eafea/fast && /usr/bin/make -f CMakeFiles/cmTC_eafea.dir/build.make CMakeFiles/cmTC_eafea.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_eafea.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_eafea.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_eafea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eafea.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_eafea.dir/CheckIncludeFile.cxx.o  -o cmTC_eafea 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7c9f/fast && /usr/bin/make -f CMakeFiles/cmTC_d7c9f.dir/build.make CMakeFiles/cmTC_d7c9f.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d7c9f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_d7c9f.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d7c9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7c9f.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_d7c9f.dir/CheckIncludeFile.cxx.o  -o cmTC_d7c9f 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81e6b/fast && /usr/bin/make -f CMakeFiles/cmTC_81e6b.dir/build.make CMakeFiles/cmTC_81e6b.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_81e6b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_81e6b.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_81e6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e6b.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_81e6b.dir/CheckIncludeFile.cxx.o  -o cmTC_81e6b 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_622c7/fast && /usr/bin/make -f CMakeFiles/cmTC_622c7.dir/build.make CMakeFiles/cmTC_622c7.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_622c7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_622c7.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_622c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_622c7.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_622c7.dir/CheckIncludeFile.cxx.o  -o cmTC_622c7 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42e26/fast && /usr/bin/make -f CMakeFiles/cmTC_42e26.dir/build.make CMakeFiles/cmTC_42e26.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_42e26.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_42e26.dir/CheckIncludeFile.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_42e26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e26.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_42e26.dir/CheckIncludeFile.cxx.o  -o cmTC_42e26 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0143/fast && /usr/bin/make -f CMakeFiles/cmTC_e0143.dir/build.make CMakeFiles/cmTC_e0143.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e0143.dir/uint32_t.cpp.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_e0143.dir/uint32_t.cpp.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CheckTypeSize/uint32_t.cpp
+Linking CXX executable cmTC_e0143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0143.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_e0143.dir/uint32_t.cpp.o  -o cmTC_e0143 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c2cb/fast && /usr/bin/make -f CMakeFiles/cmTC_6c2cb.dir/build.make CMakeFiles/cmTC_6c2cb.dir/build
+make[1]: 进入目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_6c2cb.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++1y -fPIC -fno-omit-frame-pointer -pthread  -fPIE   -o CMakeFiles/cmTC_6c2cb.dir/CheckSymbolExists.cxx.o -c /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_6c2cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c2cb.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++1y -fPIC -fno-omit-frame-pointer -pthread     -rdynamic CMakeFiles/cmTC_6c2cb.dir/CheckSymbolExists.cxx.o  -o cmTC_6c2cb 
+make[1]: 离开目录“/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp”
+
+
+File /home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

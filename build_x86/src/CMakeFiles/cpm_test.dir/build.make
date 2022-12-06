@@ -80,6 +80,7 @@ cpm_test_EXTERNAL_OBJECTS =
 src/cpm_test: src/CMakeFiles/cpm_test.dir/test.cpp.o
 src/cpm_test: src/CMakeFiles/cpm_test.dir/build.make
 src/cpm_test: _deps/googletest-build/googlemock/gtest/libgtestd.a
+src/cpm_test: _deps/gflags-build/libgflags_nothreads_debug.a
 src/cpm_test: _deps/googletest-build/googlemock/libgmockd.a
 src/cpm_test: _deps/googletest-build/googlemock/gtest/libgtestd.a
 src/cpm_test: src/CMakeFiles/cpm_test.dir/link.txt

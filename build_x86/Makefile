@@ -157,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named gflags_nothreads_static
+
+# Build rule for target.
+gflags_nothreads_static: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gflags_nothreads_static
+.PHONY : gflags_nothreads_static
+
+# fast build rule for target.
+gflags_nothreads_static/fast:
+	$(MAKE) -f _deps/gflags-build/CMakeFiles/gflags_nothreads_static.dir/build.make _deps/gflags-build/CMakeFiles/gflags_nothreads_static.dir/build
+.PHONY : gflags_nothreads_static/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -233,6 +246,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... gflags_nothreads_static"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

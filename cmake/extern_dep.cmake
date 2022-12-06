@@ -1,16 +1,16 @@
 include(cmake/CPM.cmake)
 
 # import from url
-# CPMAddPackage(
-#         NAME gflags
-#         URL https://github.com/645Terry/cpm-lib/blob/master/pkgs/gflags_2.2.2/x86_64-ubuntu-linux-gcc9.3.0/gflags_2.2.2.tar
-# )
-# include_directories(${gflags_SOURCE_DIR}/include)
-# link_directories(${gflags_SOURCE_DIR}/lib)
-# install(DIRECTORY ${gflags_SOURCE_DIR}/lib
-#         DESTINATION third_party
-#         FILES_MATCHING PATTERN "*.so*"
-#         )
+CPMAddPackage(
+        NAME gflags
+        URL https://codeload.github.com/gflags/gflags/zip/refs/heads/master
+)
+include_directories(${gflags_SOURCE_DIR}/include)
+link_directories(${gflags_SOURCE_DIR}/lib)
+install(DIRECTORY ${gflags_SOURCE_DIR}/lib
+        DESTINATION third_party
+        FILES_MATCHING PATTERN "*.so*"
+        )
 
 # import from github repo
 CPMAddPackage(
