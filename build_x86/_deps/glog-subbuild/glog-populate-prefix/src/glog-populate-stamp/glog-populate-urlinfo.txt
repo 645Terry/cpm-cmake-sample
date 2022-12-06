@@ -1,3 +1,0 @@
-repository='external project URL'
-module='http://mirrors.phigent.io/nfs/pkgs/glog_0.5.0/x86_64-ubuntu-linux-gcc9.3.0/glog_0.5.0.tar'
-tag=''

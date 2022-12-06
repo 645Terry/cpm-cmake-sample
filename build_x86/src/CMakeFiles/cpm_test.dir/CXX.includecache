@@ -6,3 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/src/test.cpp
+iostream
+-
+

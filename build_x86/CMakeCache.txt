@@ -219,16 +219,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=test
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.9.0
+CMAKE_PROJECT_VERSION:STATIC=2.2.2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=9
+CMAKE_PROJECT_VERSION_MINOR:STATIC=2
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -331,10 +331,6 @@ FETCHCONTENT_QUIET:BOOL=ON
 FETCHCONTENT_SOURCE_DIR_GFLAGS:PATH=
 
 //When not empty, overrides where to find pre-populated content
-// for glog
-FETCHCONTENT_SOURCE_DIR_GLOG:PATH=
-
-//When not empty, overrides where to find pre-populated content
 // for googletest
 FETCHCONTENT_SOURCE_DIR_GOOGLETEST:PATH=
 
@@ -343,9 +339,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of gflags
 FETCHCONTENT_UPDATES_DISCONNECTED_GFLAGS:BOOL=OFF
-
-//Enables UPDATE_DISCONNECTED behavior just for population of glog
-FETCHCONTENT_UPDATES_DISCONNECTED_GLOG:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of googletest
 FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
@@ -418,12 +411,6 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
-
-//Value Computed by CMake
-planning_BINARY_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86
-
-//Value Computed by CMake
-planning_SOURCE_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample
 
 //Value Computed by CMake
 test_BINARY_DIR:STATIC=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/src
@@ -626,7 +613,6 @@ CPM_MODULE_PATH:INTERNAL=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x
 CPM_PACKAGES:INTERNAL=gflags;googletest
 CPM_PACKAGE_LOCK_FILE:INTERNAL=/home/yuzw/work/yuzw_workspace/cpm-cmake-sample/build_x86/cpm-package-lock.cmake
 CPM_PACKAGE_gflags_VERSION:INTERNAL=
-CPM_PACKAGE_glog_VERSION:INTERNAL=0.5.0
 CPM_PACKAGE_googletest_VERSION:INTERNAL=1.8.1
 CPM_VERSION:INTERNAL=1.0.0-development-version
 //Details about finding Boost
