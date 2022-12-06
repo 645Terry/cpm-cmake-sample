@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://mirrors.phigent.io/nfs/pkgs/googletest_1.10.0.0/x86_64-ubuntu-linux-gcc9.3.0/googletest_1.10.0.0.tar'
+tag=''
