@@ -28,3 +28,15 @@ install(DIRECTORY ${googletest_SOURCE_DIR}/lib
         DESTINATION third_party
         FILES_MATCHING PATTERN "*.so*"
         )
+
+# import from self lib
+# CPMAddPackage(
+#         NAME glog
+#         URL https://github.com/645Terry/cpm-lib/raw/master/pkgs/glog_0.5.0/${ARCH_PLAT_VENDOR}/glog_0.5.0.tar
+# )
+# include_directories(${glog_SOURCE_DIR}/include)
+# link_directories(${glog_SOURCE_DIR}/lib)
+# install(DIRECTORY ${glog_SOURCE_DIR}/lib
+#         DESTINATION third_party
+#         FILES_MATCHING PATTERN "*.so*"
+#         )
