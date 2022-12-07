@@ -32,7 +32,7 @@ install(DIRECTORY ${googletest_SOURCE_DIR}/lib
 # import from self lib
 # CPMAddPackage(
 #         NAME glog
-#         URL https://github.com/645Terry/cpm-lib/raw/master/pkgs/glog_0.5.0/${ARCH_PLAT_VENDOR}/glog_0.5.0.tar
+#         URL https://github.com/645Terry/cpm-lib/raw/master/pkgs/glog_0.5.0/x86_64-ubuntu-linux-gcc9.3.0/glog_0.5.0.tar
 # )
 # include_directories(${glog_SOURCE_DIR}/include)
 # link_directories(${glog_SOURCE_DIR}/lib)
